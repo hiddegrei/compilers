@@ -14,10 +14,10 @@ export default class Ray{
     }
 
     show(){
-         this.ctx.beginPath();
-        this.ctx.moveTo(this.pos.x, this.pos.y);
-        this.ctx.lineTo(this.pos.x+this.dir.x, this.pos.y+this.dir.y);
-        this.ctx.stroke();
+        //  this.ctx.beginPath();
+        // this.ctx.moveTo(this.pos.x, this.pos.y);
+        // this.ctx.lineTo(this.pos.x+this.dir.x, this.pos.y+this.dir.y);
+        // this.ctx.stroke();
 
        // this.writeTextToCanvas("x: " +this.dir.x+" y: "+this.dir.y,this.pos.x,this.pos.y+20)
 
